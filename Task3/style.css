@@ -1,0 +1,33 @@
+body{
+font-family: Arial;
+text-align:center;
+background:#f2f2f2;
+}
+
+.calculator{
+width:220px;
+margin:auto;
+padding:20px;
+background:white;
+border:1px solid gray;
+}
+
+#display{
+width:200px;
+height:40px;
+margin-bottom:10px;
+text-align:right;
+font-size:18px;
+}
+
+.buttons{
+display:grid;
+grid-template-columns:repeat(4,50px);
+gap:5px;
+justify-content:center;
+}
+
+button{
+height:40px;
+font-size:16px;
+}
